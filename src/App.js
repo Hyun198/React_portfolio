@@ -1,11 +1,11 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import { Home } from './pages/Home';
-import { Weather } from './pages/Weather';
-import { Shop } from './pages/Shop';
-import { Zepeto } from './pages/Zepeto';
-import './App.css';
-import { ZepetoList } from './pages/ZepetoList';
+import { Weather } from './Components/Weather/Weather';
+import { Shop } from './Components/Shop/Shop';
+import { Zepeto } from './Components/Zepeto/Zepeto';
+import { ZepetoList } from './Components/Zepeto/ZepetoList';
 
+import './App.css';
 function App() {
   return (
     <>
@@ -21,8 +21,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/weather" element={<Weather />} />
         <Route path="/shop" element={<Shop />} />
-        <Route path="/zepeto" element={<ZepetoList />} />
-        <Route path="/zepeto/:id" element={<Zepeto />} />
+        <Route path="/zepeto">
+          <Route index element={<ZepetoList />} />
+          <Route path=":id" element={<Zepeto />} />
+        </Route>
+
+
       </Routes>
     </>
   );
