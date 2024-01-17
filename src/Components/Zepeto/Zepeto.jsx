@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
-export const Zepeto = () => {
+import { useParams } from 'react-router-dom'
+
+export default function Zepeto() {
     const { id } = useParams()
     return (
         <>

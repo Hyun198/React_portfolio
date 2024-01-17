@@ -8,7 +8,9 @@ import humidity_icon from './Assets/humidity.png'
 import wind_icon from './Assets/wind.png'
 import rain_icon from './Assets/rain.png'
 import snow_icon from './Assets/snow.png'
-export const Weather = () => {
+
+
+export default function Weather() {
 
 
     let api_key = "2d9656e12a5cfa0fd6b7cbebd84d6e23";
