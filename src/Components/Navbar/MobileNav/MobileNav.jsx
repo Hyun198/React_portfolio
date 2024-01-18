@@ -1,16 +1,7 @@
 import React from 'react'
 import './MobileNav.css'
 import logo_icon from "../Assets/logo.jpg"
-import Home from '../../Home/Home';
-import About from '../../../pages/About';
-import Contact from '../../../pages/Contact';
-import Portfolio from '../../../pages/Portfolio';
-import Weather from '../../../Components/Weather/Weather'
-import Shop from '../../../Components/Shop/Shop';
-import PartTime from '../../../Components/PartTime/PartTime';
-import ZepetoList from '../../../Components/Zepeto/ZepetoList';
-import Zepeto from '../../../Components/Zepeto/Zepeto';
-import { Link, Route, Routes } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function MobileNav({ isOpen, toggleMenu }) {
     return (
@@ -42,7 +33,7 @@ export default function MobileNav({ isOpen, toggleMenu }) {
             </div>
 
 
-            <Routes>
+            {/*  <Routes>
                 <Route path="/portfolio/*" element={
                     <Routes>
                         <Route path="/" element={<Portfolio />} />
@@ -57,7 +48,7 @@ export default function MobileNav({ isOpen, toggleMenu }) {
                 } />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
-            </Routes>
+            </Routes> */}
         </>
     )
 }
