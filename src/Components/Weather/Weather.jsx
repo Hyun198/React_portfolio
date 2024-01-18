@@ -73,7 +73,7 @@ export default function Weather() {
 
 
     return (
-        <div className='container'>
+        <div className='weather-container'>
             <div className='top-bar'>
                 <input type="text" className="cityInput" id="cityInput" placeholder='Search' />
                 <div className="search-icon" onClick={() => { search() }}>
