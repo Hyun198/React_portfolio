@@ -72,4 +72,23 @@
     .skills-info {
         width: 100%;
     }
+
+    .skills-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .skills-container::after,
+    .skills-container::before {
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
+@media(max-width : 600px) {
+    .skills-container {
+        padding: 0;
+
+    }
 }

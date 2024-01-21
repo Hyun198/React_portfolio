@@ -13,8 +13,9 @@ export const SKILLS = [
         title: "Backend",
         icon: "images/back.png",
         skills: [
-            { skill: "Node.js", percentage: "70%" },
-            { skill: "Flask", percentage: "80%" },
+            { skill: "Node.js", percentage: "50%" },
+            { skill: "Flask", percentage: "70%" },
+            { skill: "SQL", percentage: "45%" }
         ],
     },
     {
@@ -36,4 +37,15 @@ export const SKILLS = [
 
         ],
     },
+];
+
+export const EXPERIENCE = [
+    {
+        title: "",
+        date: "",
+        responsibilities: [
+            ""
+        ],
+    },
+
 ]

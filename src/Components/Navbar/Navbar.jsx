@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 
 import Home from '../Home/Home';
 import About from '../../pages/About';
-import Contact from '../../pages/Contact';
+
 import Portfolio from '../../pages/Portfolio';
 import Weather from '../../Components/Weather/Weather';
 import Shop from '../../Components/Shop/Shop';
@@ -38,10 +38,7 @@ export default function Navbar() {
                             <Link to="/portfolio" className='menu-item'>portfolio</Link>
                         </li>
                         <li>
-                            <Link to="/about" className='menu-item'>Skills</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact" className='menu-item'>Contact me</Link>
+                            <Link to="/about" className='menu-item'>About</Link>
                         </li>
 
                         <button className='contact-btn' onClick={() => { }}>Hire Me</button>
@@ -74,7 +71,6 @@ export default function Navbar() {
                     </Routes>
                 } />
                 <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
             </Routes>
         </>
     )

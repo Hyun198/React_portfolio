@@ -6,6 +6,7 @@ import css_icon from './Assets/css.png'
 import react_icon from './Assets/react.png'
 import profile from './Assets/profile.jpg'
 import Skills from '../Skills/Skills'
+import Contact from '../Contact/Contact'
 
 export default function Home() {
     return (
@@ -39,6 +40,8 @@ export default function Home() {
                 </div>
             </section>
             <Skills />
+
+            <Contact />
         </>
     )
 }
