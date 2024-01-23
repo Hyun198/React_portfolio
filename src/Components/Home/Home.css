@@ -45,6 +45,12 @@
     line-height: 2rem;
 }
 
+.home-content span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
 .profile {
     border-radius: 60px;
 }
@@ -77,12 +83,11 @@
     justify-content: center;
     text-align: center;
     border-radius: 0.65rem;
-    border: 1.5px solid #fff;
 
 }
 
 .tech-icon img {
-    width: 3rem;
+    width: 4rem;
     height: auto;
     transition: all 0.3s ease;
 }

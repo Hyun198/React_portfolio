@@ -4,7 +4,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Home from '../Home/Home';
 import About from '../../pages/About';
 
-import Portfolio from '../../pages/Portfolio';
+import Portfolio from '../../pages/Portfolio/Portfolio';
 import Weather from '../../Components/Weather/Weather';
 import Shop from '../../Components/Shop/Shop';
 import PartTime from '../../Components/PartTime/PartTime';
